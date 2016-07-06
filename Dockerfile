@@ -1,4 +1,4 @@
-FROM metocean/mini-nodejs:0.12
+FROM metocean/mini-nodejs:v1.0
 MAINTAINER MetOcean Operations <ops@metocean.co.nz>
 ADD . /install/
 RUN /install/install.sh
